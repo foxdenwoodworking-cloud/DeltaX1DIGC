@@ -71,7 +71,6 @@ async function enqueueJob(job: {
 
 // --- Stripe crown ---
 const stripe = new Stripe(config.stripe.secret || "", {
-  apiVersion: "2025-12-15.clover",
 });
 
 // -----------------------------
